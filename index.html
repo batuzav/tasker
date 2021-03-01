@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tasker</title>
+</head>
+<body>
+
+    <div class="container">
+        <p>
+            <label for="new-task">Add Task</label>
+            <input id="new-task" type="text" />
+            <button id="add-task">Add Task</button>
+        </p>
+        <h3>Tasks</h3>
+        <ul id="incomplete-tasks">
+            <li>
+                <input type="checkbox">
+                <label> Hacer Ejercicio</label>
+            </li>
+
+        </ul>
+
+        <h3>Completed</h3>
+        <ul id="completed-tasks">
+            <li>
+                <input type="checkbox">
+                <label> Completar Curso TypeScript</label>
+            </li>
+        </ul>
+    </div>
+
+    
+
+   <script src="app.js">
+   </script> 
+</body>
+</html>
